@@ -6,6 +6,21 @@ body {
     font-weight: 400;
     font-style: normal;
 }
+/* Optional: Add custom styles for the navbar */
+.navbar {
+    transition: background-color 0.3s ease;
+}
+/* Default background color */
+.navbar.bg-light {
+    background-color: white;
+}
+
+/* Background color after scrolling */
+.navbar.bg-custom {
+    background-color: #e07474;
+    color: white;
+}
+
 h1,h5{
     color: #e07474;
 }
