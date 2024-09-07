@@ -22,3 +22,19 @@ h1,h5{
 .detailed-summary h3{
     color: black;
 }
+
+footer{
+    background-color: #008080;
+    color: white;
+}
+footer h5{
+    color: white;
+}
+footer a {
+    color: white; /* Ensures links are white */
+    text-decoration: none; /* Optional: Removes underline from links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Optional: Adds underline on hover for better visibility */
+}
